@@ -3,7 +3,7 @@ Test.js
 Debug the script
 */
 function Debug(msg,win,type,DebugNumber){
-if(!DebugNumber || DebugNumber === 0 )DebugNumber=1
+if(!DebugNumber || DebugNumber === 0 )DebugNumber=1 // for loop
 if(!win)win = window;
 for ( i=0;i<DebugNumber;i++){
 if(!win.console)return null;
